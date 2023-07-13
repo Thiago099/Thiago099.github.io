@@ -121,7 +121,7 @@
         "Source":"https://github.com/Thiago099/shape-mnist",
         "Docs":"https://github.com/Thiago099/shape-mnist/blob/master/README.md",
         "Image":"../img/shape-mnist.png",
-        "Page":"http://localhost:3001/shape-mnist/",
+        "Page":"https://thiago099.github.io/shape-mnist/",
         "Description": "Shape training dataset generator"
     },
     {
