@@ -35,6 +35,13 @@
         "Description":"Graphic interface that makes it a lot easier to build SQL queries."
     },
     {
+        "Name":"Node chat",
+        "Source":"https://github.com/Thiago099/node-chat",
+        "Docs":"https://github.com/Thiago099/node-chat/blob/main/README.md",
+        "Image":"../img/node-chat.png",
+        "Description":"A basic chat application made in vite and node js"
+    },
+    {
         "Title":"Technical challenges"
     },
     {
