@@ -7,7 +7,7 @@ var main =
 
 main.$parent(document.body)
 
-function print({Name, Page = null, Source = null, Image, Description}) {
+function print({Name, Page = null, Source = null, Docs = null, Image, Description}) {
     main.$child(
     <div class="box">
         <div class="title">{Name}</div>
@@ -16,8 +16,9 @@ function print({Name, Page = null, Source = null, Image, Description}) {
             {Description}
         </div>
         <div class="col">
-            {Page != null? <a href={Page}> <i class="fa-solid fa-link"></i> Link</a>:""}
-            <a href={Source}><i class="fa-solid fa-file-lines"></i> Source</a>
+            <a href={Docs}><i class="fa-solid fa-file-lines"></i> Docs</a>
+            {Page != null? <a href={Page}><i class="fa-solid fa-link"></i> Link</a>:""}
+            <a href={Source}><i class="fa-solid fa-folder"></i> Source</a>
         </div>
 
     </div>
