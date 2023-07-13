@@ -6,6 +6,7 @@
         "Name":"Voxel Modeler 2",
         "Page":"https://thiago099.github.io/voxel-modeler-2",
         "Source":"https://github.com/Thiago099/voxel-modeler-2",
+        "Docs":"https://github.com/Thiago099/voxel-modeler-2/blob/master/README.md",
         "Image":"../img/voxel-modeler2.png",
         "Description":"Open source free software made in javascript to create voxel art."
     },
@@ -13,6 +14,7 @@
         "Name":"Magic DOM",
         "Page":"https://www.npmjs.com/package/magic-dom",
         "Source":"https://github.com/Thiago099/magic-dom",
+        "Docs":"https://github.com/Thiago099/magic-dom/blob/master/readme.md",
         "Image":"../img/magic-dom.png",
         "Description":"Frontend library that allow you to use jsx syntax."
     },
@@ -20,8 +22,17 @@
         "Name":"Super Canvas",
         "Page":"https://www.npmjs.com/package/super-canvas",
         "Source":"https://github.com/Thiago099/super-canvas",
+        "Docs":"https://github.com/Thiago099/super-canvas/blob/master/readme.md",
         "Image":"../img/super-canvas.png",
         "Description":"lightweight extension of the html canvas, that allow you to draw and interact with shapes in a intuitive way."
+    },
+    {
+        "Name":"Sql Helper 2",
+        "Page":"https://github.com/Thiago099/sql-helper-2/releases/tag/sql",
+        "Source":"https://github.com/Thiago099/sql-helper-2/",
+        "Docs":"https://github.com/Thiago099/sql-helper-2/blob/master/README.md",
+        "Image":"../img/sql-helper.png",
+        "Description":"Graphic interface that makes it a lot easier to build SQL queries."
     },
     {
         "Title":"Technical challenges"
@@ -30,6 +41,7 @@
         "Name":"Graph coloring",
         "Page":"https://thiago099.github.io/graph-coloring",
         "Source":"https://github.com/Thiago099/graph-coloring",
+        "Docs":"https://github.com/Thiago099/graph-coloring/blob/master/README.md",
         "Image":"../img/graph-coloring.png",
         "Description":"interactive graph editor that colors the graph with the least amount of colors possible so there is no node with the same color connected"
     },
@@ -37,6 +49,7 @@
         "Name":"Knapsack",
         "Page":"https://thiago099.github.io/knapsack/",
         "Source":"https://github.com/Thiago099/knapsack",
+        "Docs":"https://github.com/Thiago099/knapsack/blob/master/README.md",
         "Image":"../img/knapsack.png",
         "Description":"Given limited cost select the items that makes the most value"
     },
@@ -47,13 +60,15 @@
         "Name":"Procedural fragment bold shader",
         "Page":"https://thiago099.github.io/image-box-bold/",
         "Source":"https://github.com/Thiago099/image-box-bold/",
+        "Docs":"https://github.com/Thiago099/image-box-bold/blob/master/README.md",
         "Image":"../img/bold.png",
         "Description":"Using only fragment shader, make the image of a text appear bold"
     },
     {
         "Name":"Procedural vertex bold shader",
         "Page":"https://thiago099.github.io/path-font-boldness/",
-        "Source":"https://github.com/Thiago099/image-box-bold/",
+        "Source":"https://github.com/Thiago099/path-font-boldness",
+        "Docs":"https://github.com/Thiago099/path-font-boldness/blob/master/README.md",
         "Image":"../img/bold-geo.png",
         "Description":"Make text geometry bold"
     },
@@ -61,12 +76,14 @@
         "Name":"Voxel modeler",
         "Page":"https://thiago099.github.io/voxel-modeler/",
         "Source":"https://github.com/Thiago099/voxel-modeler",
+        "Docs":"https://github.com/Thiago099/voxel-modeler/blob/master/README.md",
         "Image":"../img/voxel-modeler.png",
         "Description":"Create voxel models, and export them as geometry. Made in web gl."
     },
     {
         "Name":"Voxel geometry reduction",
         "Source":"https://github.com/Thiago099/voxel-geometry-reduction",
+        "Docs":"https://github.com/Thiago099/voxel-geometry-reduction/blob/master/README.md",
         "Image":"../img/voxel-geometry.png",
         "Description":"A test project, made to solve a part of the problem of converting voxel data into optimized geometry"
     }
@@ -74,6 +91,7 @@
     {
         "Name":"String interpolation",
         "Source":"https://github.com/Thiago099/replacer",
+        "Docs":"https://github.com/Thiago099/replacer/blob/master/README.md",
         "Image":"../img/advanced-replacer.png",
         "Description": "This is a little more advanced string interpolation"
     }
