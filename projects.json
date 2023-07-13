@@ -86,14 +86,51 @@
         "Docs":"https://github.com/Thiago099/voxel-geometry-reduction/blob/master/README.md",
         "Image":"../img/voxel-geometry.png",
         "Description":"A test project, made to solve a part of the problem of converting voxel data into optimized geometry"
-    }
-    ,
+    },
     {
         "Name":"String interpolation",
         "Source":"https://github.com/Thiago099/replacer",
         "Docs":"https://github.com/Thiago099/replacer/blob/master/README.md",
         "Image":"../img/advanced-replacer.png",
         "Description": "This is a little more advanced string interpolation"
+    },
+    {
+        "Name":"WebGL face picking",
+        "Source":"https://github.com/Thiago099/web-gl-get-face-mouse-is-over",
+        "Docs":"https://github.com/Thiago099/web-gl-get-face-mouse-is-over/blob/master/README.md",
+        "Image":"../img/webgl-picking.png",
+        "Description": "You can rotate a cube. Hovering over a face causes it to be highlighted"
+    },
+    {
+        "Name":"Closest point to bezier",
+        "Source":"https://github.com/Thiago099/closest-point-on-bezier",
+        "Docs":"https://github.com/Thiago099/closest-point-on-bezier/blob/master/README.md",
+        "Image":"../img/closest-point-to-bezier.png",
+        "Page":"https://www.npmjs.com/package/closest-point-on-bezier",
+        "Description": "Given a bezier curve and a point, finds which point in the curve is closest to the given point"
+    },
+    {
+        "Name":"Tree",
+        "Source":"https://github.com/Thiago099/html-css-js-tree",
+        "Docs":"https://github.com/Thiago099/html-css-js-tree/blob/master/README.md",
+        "Image":"../img/tree.png",
+        "Description": "Collapsible tree"
+    },
+    {
+        "Name":"Procedural shape Mnist",
+        "Source":"https://github.com/Thiago099/shape-mnist",
+        "Docs":"https://github.com/Thiago099/shape-mnist/blob/master/README.md",
+        "Image":"../img/shape-mnist.png",
+        "Page":"http://localhost:3001/shape-mnist/",
+        "Description": "Shape training dataset generator"
+    },
+    {
+        "Name":"Collorfull interface",
+        "Source":"https://github.com/Thiago099/colorful-interface",
+        "Docs":"https://github.com/Thiago099/colorful-interface/blob/master/README.md",
+        "Image":"../img/colorful-interface.png",
+        "Page":"https://www.npmjs.com/package/colorful-interface",
+        "Description": "Ii toolkit with styles for most common html elements"
     }
     
 ]
