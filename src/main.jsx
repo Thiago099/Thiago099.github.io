@@ -7,13 +7,13 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 import { Router } from "magic-dom/components/router.jsx"
 
 const router = Router({
-    "projects": () => import("./pages/project.jsx"),
+    "/": () => import("./pages/project.jsx"),
     "about": () => import("./pages/about.jsx"),
     // "route2": () => import("path/to/page2.jsx")
     // "person/{id}": () => import("path/to/page3.jsx")
     "404": () => import("./pages/404.jsx"),
     "loading": <div class="message">Loading...</div>
-},"projects")// main route if there is no / route
+})// main route if there is no / route
 
 function go(path)
 {
