@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+.container {
+    display: grid;
+    grid-template-areas:
+      'header header header'
+      'menu main right';
+    grid-template-columns: 1fr 5fr 1fr; 
+    grid-template-rows: 100px 4fr ;
+    gap: 5px;
+    background-color: #21222c;
+    height: 100vh;
+    width: 100vw;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container > div {
+    /* overflow: hidden; */
+
+}
+
+.menu{
+    grid-area: menu;
+}
+
+.main{
+    grid-area: main;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    grid-area: right;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.header{
+    grid-area: header;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

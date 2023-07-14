@@ -3,66 +3,52 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    text-align: center;
     background-color: rgb(54, 54, 54);
     color: white;
 }
 
-a{
+.button{
     text-decoration: none;
     color: white;
     background-color: rgb(83, 83, 83);
     margin: 5px;
     padding: 5px 10px;
     border-radius: 30px;
+    cursor: pointer;
+    border: none;
 }
-a:hover{
+.button:hover{
     background-color: rgb(95, 103, 109);
 }
 
-img{
-    width: 300px;
-    border-radius: 10px;
-}
-.title{
-    position: absolute;
-    top: -30px;
-    left: 30px;
-    font-size: 2em;
-    background-color: rgb(54, 54, 54);
-    padding: 6px;
-}
-.box > *{
-    flex-grow: 1;
+
+.header{
+    font-size: 3em;
 }
 
-.box{
-    display: flex;
-    align-items: center;
-    border: 1px dashed rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 20px;
 
-    position: relative;
-    margin-bottom: 30px;
-}
-.content{
-    width: clamp(100px, 100vw, 800px);
-}
-.col{
+.menu{
     display: flex;
     flex-direction: column;
-    width: 120px;
-}
-.description{
-    width: 300px;
-    padding: 30px;
 }
 
-.heading{
-    text-align: start;
-    font-size: 30pt;
-    margin: 40px 0;
-    padding: 10px 0;
-    border-bottom:1px solid white;
+.menu-item{
+    padding: 5px;
+    margin: 5px 20px;
+    border: none;
+    background-color: #282a36;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.menu-item:hover{
+    background-color: #343746;
+}
+
+
+.message{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:3em;
 }

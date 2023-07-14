@@ -138,6 +138,13 @@
         "Image":"../img/colorful-interface.png",
         "Page":"https://www.npmjs.com/package/colorful-interface",
         "Description": "Ii toolkit with styles for most common html elements"
+    },
+    {
+        "Name":"CSS grid basics",
+        "Source":"https://github.com/Thiago099/css-grid-basics/",
+        "Docs":"https://github.com/Thiago099/css-grid-basics/blob/master/README.md",
+        "Image":"../img/grid.png",
+        "Description": "A basic css grid layout"
     }
     
 ]
