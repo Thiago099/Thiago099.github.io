@@ -22,7 +22,7 @@ function go(path)
 
 var container = 
 <div class="container">
-    <div class="header"><i class="fa-solid fa-diagram-project"></i>&nbsp;Thiago Kaique | {Captalize(router.getPath())}</div>
+    <div class="header"><i class="fa-solid fa-diagram-project"></i>&nbsp;Thiago Kaique {/*| {Captalize(router.getPath())}*/}</div>
     <div class="main">{router.container}</div>
     <div class="menu">
         {/* <button class="menu-item" on:click={()=>go("projects")}>Projects</button>
