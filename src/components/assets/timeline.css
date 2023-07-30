@@ -9,6 +9,7 @@
     font-size: 2em;
     background-color: #21222c;
     padding: 6px;
+    White-space: nowrap;
 }
 .timeline .box > *{
     flex-grow: 1;
@@ -22,7 +23,15 @@
     padding: 20px;
     position: relative;
     margin-bottom: 30px;
-
+}
+@media (max-width: 600px) {
+    .timeline .box{
+        flex-direction: column;
+    }
+    .timeline .title{
+        top: -20px;
+        font-size: 1.5em;
+    }
 }
 .timeline{
     width: clamp(100px, 100%, 1000px);
