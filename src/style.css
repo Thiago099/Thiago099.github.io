@@ -6,7 +6,9 @@ body{
     background-color: rgb(54, 54, 54);
     color: white;
 }
-
+*{
+    box-sizing: border-box;
+}
 .button{
     text-decoration: none;
     color: white;

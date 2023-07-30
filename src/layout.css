@@ -5,8 +5,8 @@ body{
     display: grid;
     grid-template-areas:
       'header header header'
-      'menu main right';
-    grid-template-columns: 1fr 5fr 1fr; 
+      'main main main';
+    grid-template-columns: 1fr 5fr; 
     grid-template-rows: 100px 4fr ;
     gap: 5px;
     background-color: #21222c;
@@ -29,7 +29,6 @@ body{
     grid-area: main;
     overflow-y: auto;
     display: flex;
-    justify-content: center;
 }
 
 .right{

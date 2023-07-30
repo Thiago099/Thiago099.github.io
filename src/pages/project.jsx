@@ -5,7 +5,7 @@ export default Project
 
 function Project()
 {
-    const main = <div></div>
+    const main = <div style="width:100%;display:flex;justify-content:center"></div>
     const { addProject, addTitle } = useTimeline(main)
 
     GetData()
