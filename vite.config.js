@@ -5,7 +5,7 @@ import { MagicDomVitePlugin, MagicDomLiteVitePlugin }  from "magic-dom/vite-plug
 
 export default defineConfig({
     plugins:[
-        MagicDomLiteVitePlugin(),
+        MagicDomVitePlugin(),
     ],
     //base: '/jsx-dom-builder-form-example/', 
     // make the @ as a alias to the src folder (opitional but recomended)

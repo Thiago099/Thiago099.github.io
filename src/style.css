@@ -3,7 +3,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: rgb(54, 54, 54);
+    background-color: #21222c;
     color: white;
 }
 *{
@@ -24,9 +24,7 @@ body{
 }
 
 
-.header{
-    font-size: 3em;
-}
+
 
 
 .menu{

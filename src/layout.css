@@ -5,38 +5,48 @@ body{
     display: grid;
     grid-template-areas:
       'header header header'
-      'main main main';
-    grid-template-columns: 1fr 5fr; 
-    grid-template-rows: 100px 4fr ;
+      'menu main right';
+    grid-template-columns: 1fr 3fr 1fr; 
+    grid-template-rows: 100px 1fr;
     gap: 5px;
-    background-color: #21222c;
-    height: 100vh;
     width: 100vw;
     padding: 5px;
     box-sizing: border-box;
 }
-
-.container > div {
-    /* overflow: hidden; */
-
+.container > *{
+    background-color: #21222c;
+}
+@media (max-width: 600px){
+    .container {
+        grid-template-areas:
+        'header header'
+        'menu menu'
+        'main main';
+        grid-template-rows: 100px auto 4fr ;
+    }
 }
 
-.menu{
-    grid-area: menu;
+.menu-link{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 3px solid rgba(255,255,255,0.1);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.menu-link:hover{
+    background-color: rgba(0,174,239, 0.2);
+}
+.menu-link-active{
+    border-color: rgba(0,138,216, 0.8);
 }
 
 .main{
     grid-area: main;
-    overflow-y: auto;
     display: flex;
-}
-
-.right{
-    grid-area: right;
-}
-
-.footer{
-    grid-area: footer;
 }
 
 .header{
@@ -45,4 +55,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: capitalize;
+    font-size: 3em;
 }
