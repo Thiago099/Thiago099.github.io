@@ -6,8 +6,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 import {Router} from "magic-dom/components/router"
 
 const router = Router({
-    "/":() => import("./pages/project.jsx"),
-    "project/{name}":() => import("./pages/projects.jsx")
+    "/":() => import("./pages/all.jsx"),
+    "project/{name}":() => import("./pages/project-page.jsx")
 })
 
 const menu = [
