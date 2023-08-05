@@ -3,7 +3,8 @@
         "Title":"Projects"
     },
     {
-        "Name":"Voxel Modeler 2",
+        "Title":"Voxel Modeler 2",
+        "Name":"voxel-modeler-2",
         "Page":"https://thiago099.github.io/voxel-modeler-2",
         "Source":"https://github.com/Thiago099/voxel-modeler-2",
         "Docs":"https://github.com/Thiago099/voxel-modeler-2/blob/master/README.md",

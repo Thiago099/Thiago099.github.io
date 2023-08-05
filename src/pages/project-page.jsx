@@ -1,5 +1,9 @@
+import { GetSignle } from "../lib/getData"
+
 export default Project
-function Project({name})
+async function Project({name})
 {
-    return <div>{name}</div>
+    const project = await GetSignle(name)
+    console.log(project)
+    return <div>{JSON.stringify(project)}</div>
 }
