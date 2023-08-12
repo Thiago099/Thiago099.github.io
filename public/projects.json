@@ -13,6 +13,7 @@
     },
     {
         "Name":"Magic DOM",
+        "Name":"magic-dom",
         "Page":"https://www.npmjs.com/package/magic-dom",
         "Source":"https://github.com/Thiago099/magic-dom",
         "Docs":"https://github.com/Thiago099/magic-dom/blob/master/readme.md",

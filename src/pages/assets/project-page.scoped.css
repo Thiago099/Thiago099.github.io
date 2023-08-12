@@ -1,0 +1,7 @@
+img{
+    width: 100%;
+}
+:root{
+    display: grid;
+    grid-template-areas: "description description""img links";
+}

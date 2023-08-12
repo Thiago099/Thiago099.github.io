@@ -16,13 +16,15 @@ body{
 .container > *{
     background-color: #21222c;
 }
-@media (max-width: 600px){
+@media (max-width: 1000px){
     .container {
         grid-template-areas:
         'header header'
         'menu menu'
         'main main';
         grid-template-rows: 100px auto 4fr ;
+        grid-template-columns: 1fr; 
+
     }
 }
 
