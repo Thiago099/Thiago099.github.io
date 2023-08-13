@@ -1,0 +1,1 @@
+async function o(){return{Projects:await fetch(window.location.origin+"/projects.json").then(n=>n.json())}}async function e(t){return(await fetch(window.location.origin+"/projects.json").then(n=>n.json())).find(n=>n.Slug==t)}export{o as G,e as a};
