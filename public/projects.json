@@ -3,8 +3,8 @@
         "Title":"Projects"
     },
     {
-        "Title":"Voxel Modeler 2",
-        "Name":"voxel-modeler-2",
+        "Name":"Voxel Modeler 2",
+        "Slug":"voxel-modeler-2",
         "Page":"https://thiago099.github.io/voxel-modeler-2",
         "Source":"https://github.com/Thiago099/voxel-modeler-2",
         "Docs":"https://github.com/Thiago099/voxel-modeler-2/blob/master/README.md",
@@ -13,7 +13,7 @@
     },
     {
         "Name":"Magic DOM",
-        "Name":"magic-dom",
+        "Slug":"magic-dom",
         "Page":"https://www.npmjs.com/package/magic-dom",
         "Source":"https://github.com/Thiago099/magic-dom",
         "Docs":"https://github.com/Thiago099/magic-dom/blob/master/readme.md",
@@ -48,10 +48,11 @@
     },
     {
         "Name":"Graph coloring",
+        "Slug":"graph-coloring",
         "Page":"https://thiago099.github.io/graph-coloring",
         "Source":"https://github.com/Thiago099/graph-coloring",
         "Docs":"https://github.com/Thiago099/graph-coloring/blob/master/README.md",
-        "Image":"../img/graph-coloring.png",
+        "Image":"../img/graph-coloring.mp4",
         "Description":"interactive graph editor that colors the graph with the least amount of colors possible so there is no node with the same color connected"
     },
     {

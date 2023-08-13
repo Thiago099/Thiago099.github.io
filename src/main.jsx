@@ -8,7 +8,7 @@ import {Router} from "magic-dom/components/router"
 const router = Router({
     "/":() => import("./pages/all.jsx"),
     "project/{name}":() => import("./pages/project-page.jsx")
-})
+},"project/voxel-modeler-2")
 
 const menu = [
     {
@@ -20,12 +20,14 @@ const menu = [
         name: "magic dom"
     },
     {
+        path: "project/graph-coloring",
+        name: "graph coloring"
+    },
+    {
         path: "",
-        name: "all"
+        name: "More"
     }
 ]
-
-router.navigate(menu[0].path)
 
 function menuLink({name, path})
 {

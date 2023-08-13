@@ -1,7 +1,29 @@
-img{
+img,video{
     width: 100%;
+    border-radius: 10px;
 }
 :root{
     display: grid;
     grid-template-areas: "description description""img links";
+    grid-template-columns: 1fr 200px;
+}
+@media (max-width: 1000px){
+    :root{
+        grid-template-areas: "description" "img" "links";
+        grid-template-columns: 1fr;
+
+    }
+}
+
+:root > *{
+    padding: 10px;
+}
+a{
+    margin: 10px;
+}
+
+.link-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

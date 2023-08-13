@@ -12,6 +12,10 @@ function Project()
     .then(({Projects})=>{
         for(const project of Projects)
         {
+            if(project.Slug)
+            {
+                continue
+            }
             if(project.Title)
             {
                 addTitle(project)

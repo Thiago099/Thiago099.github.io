@@ -7,5 +7,5 @@ async function GetData()
 }
 async function GetSignle(name)
 {
-    return (await fetch(window.location.origin+"/projects.json").then(x => x.json())).find(x=>x.Name == name)
+    return (await fetch(window.location.origin+"/projects.json").then(x => x.json())).find(x=>x.Slug == name)
 }
