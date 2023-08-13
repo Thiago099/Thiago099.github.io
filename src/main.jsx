@@ -6,11 +6,16 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 import {Router} from "magic-dom/components/router"
 
 const router = Router({
-    "/":() => import("./pages/all.jsx"),
+    "/":()=> import("./pages/home.jsx"),
+    "more":() => import("./pages/all.jsx"),
     "project/{name}":() => import("./pages/project-page.jsx")
-},"project/voxel-modeler-2")
+})
 
 const menu = [
+    {
+        path: "",
+        name: "Home"
+    },
     {
         path: "project/voxel-modeler-2",
         name: "voxel modeler 2"
@@ -24,7 +29,7 @@ const menu = [
         name: "graph coloring"
     },
     {
-        path: "",
+        path: "more",
         name: "More"
     }
 ]
