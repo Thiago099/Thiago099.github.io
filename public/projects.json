@@ -56,6 +56,15 @@
         "Description":"interactive graph editor that colors the graph with the least amount of colors possible so there is no node with the same color connected"
     },
     {
+        "Name":"Three gizmo",
+        "Slug":"three-gizmo",
+        "Page":"https://www.npmjs.com/package/three-gizmo",
+        "Source":"https://github.com/Thiago099/three-gizmo",
+        "Docs":"https://github.com/Thiago099/three-gizmo/blob/main/readme.md",
+        "Image":"../img/gizmo.png",
+        "Description":"interactive graph editor that colors the graph with the least amount of colors possible so there is no node with the same color connected"
+    },
+    {
         "Name":"Knapsack",
         "Page":"https://thiago099.github.io/knapsack/",
         "Source":"https://github.com/Thiago099/knapsack",

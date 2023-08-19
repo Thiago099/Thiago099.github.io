@@ -29,6 +29,10 @@ const menu = [
         name: "graph coloring"
     },
     {
+        path: "project/three-gizmo",
+        name: "Three gizmo"
+    },
+    {
         path: "more",
         name: "More"
     }
